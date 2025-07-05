@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "BookEasyAI"
+version = "0.1.0"
+description = "Conversational AI to schedule appointments via Google Calendar using LangChain and FastAPI"
+authors = ["Charan TM <charanntm.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+# LangChain core & integrations — latest 0.3.x series
+langchain = "0.3.26"
+langchain-openai = "0.3.27"
+langchain-community = "0.3.27"
+# Google GenAI integration
+langchain-google-genai = "2.0.0"
+
+# Google Calendar
+google-api-python-client = "^2.125.0"
+google-auth = "^2.29.0"
+
+# Web Framework & Frontend
+fastapi = "^0.111.0"
+streamlit = "^1.35.0"
+uvicorn = "^0.29.0"
+
+# Utilities
+python-dotenv = "^1.0.1"
+tiktoken = "^0.7.0"
+sentence-transformers = "^3.0.0"
+bs4 = "^0.0.2"
+
+[tool.pyright]
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
