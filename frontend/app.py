@@ -12,7 +12,7 @@ def main():
     prompt = st.chat_input("Ask me to schedule something....")
     if prompt:
         st.session_state.chat.append({"role":"user", "content":prompt})
-        response = requests.post("http://localhost:8000/chat", json={'message':prompt})
+        response = requests.post("https://bookeasyai.onrender.com/chat", json={'message':prompt})
 
         # st.write("Status_code:", response.status_code)
         # st.write("Raw text: ", response.text)
