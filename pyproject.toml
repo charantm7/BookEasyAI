@@ -3,6 +3,7 @@ name = "BookEasyAI"
 version = "0.1.0"
 description = "Conversational AI to schedule appointments via Google Calendar using LangChain and FastAPI"
 authors = ["Charan TM <charanntm.dev@gmail.com>"]
+package-mode = false 
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.14"  
