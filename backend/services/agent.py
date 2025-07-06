@@ -52,7 +52,6 @@ prompt_temp = """
         - `summary`: A short, clear event title (e.g., "Project Meeting", "Gym", "Dinner with Mom")
         - `start_time`: Full datetime in full ISO formate eg format (e.g., "2024-07-10T17:00:00+05:30")
         - `end_time`: Full datetime in full ISO formate
-        - if the user provided the date like today , tommorow something like that reply user to give the time in this formate [month/day/year]
 
         2. Do **not assume** missing fields — always confirm politely with the user if anything is unclear.
 
