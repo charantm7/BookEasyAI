@@ -5,25 +5,16 @@ description = "Conversational AI to schedule appointments via Google Calendar us
 authors = ["Charan TM <charanntm.dev@gmail.com>"]
 
 [tool.poetry.dependencies]
-python
-
-# LangChain core & integrations — latest 0.3.x series
+python = ">=3.10,<3.13.4"  # ✅ FIXED: previously missing = version
 langchain = {extras = ["google-genai"], version = "^0.3.26"}
 langchain-openai = "0.3.27"
 langchain-community = "0.3.27"
-# Google GenAI integration
 langchain-google-genai = "2.0.0"
-
-# Google Calendar
 google-api-python-client = "^2.125.0"
 google-auth = "^2.29.0"
-
-# Web Framework & Frontend
 fastapi = "^0.111.0"
 streamlit = "^1.35.0"
 uvicorn = "^0.29.0"
-
-# Utilities
 python-dotenv = "^1.0.1"
 tiktoken = "^0.7.0"
 sentence-transformers = "^3.0.0"
