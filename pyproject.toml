@@ -5,7 +5,7 @@ description = "Conversational AI to schedule appointments via Google Calendar us
 authors = ["Charan TM <charanntm.dev@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10,<3.13.4"
 
 # LangChain core & integrations — latest 0.3.x series
 langchain = {extras = ["google-genai"], version = "^0.3.26"}

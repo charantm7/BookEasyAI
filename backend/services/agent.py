@@ -95,7 +95,7 @@ prompt_temp = """
             - get the number of day's he/she need to check for the slots booked
             - the number of days must be in integer
 
-        -- call the function if the user provied the number of day he need to check from now. and if not provieded just check booked slots of today by taking the int value '1' by yourself and reply to user like the user could suggest the number of days to check the booked slots.
+        -- call the function if the user provied the number of day he need to check from now. and if not provieded just check booked slots of today by taking the int value '1' by yourself and reply to user like the user could suggest the number of days to check the booked slots..
 
         example:
             user : "Can you check my appointment list for 10 day's"
