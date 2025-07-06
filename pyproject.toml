@@ -7,7 +7,7 @@ authors = ["Charan TM <charanntm.dev@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.10,<3.14"  
 langchain = {extras = ["google-genai"], version = "^0.3.26"}
-langchain-openai = "0.3.25"
+langchain-openai = "0.3.27"
 langchain-community = "0.3.27"
 langchain-google-genai = "2.0.0"
 google-api-python-client = "^2.125.0"
@@ -16,7 +16,7 @@ fastapi = "^0.111.0"
 streamlit = "^1.35.0"
 uvicorn = "^0.29.0"
 python-dotenv = "^1.0.1"
-tiktoken = "^0.6.0"
+tiktoken = "^0.7.0"
 sentence-transformers = "^3.0.0"
 bs4 = "^0.0.2"
 dateparser = "^1.2.2"
